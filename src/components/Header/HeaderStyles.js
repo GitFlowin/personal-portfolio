@@ -21,23 +21,6 @@ export const Title = styled.h2`
   color: white;
 `;
 
-export const SocialDiv = styled.div`
-  grid-area: 1 / 5 / 2 / 7;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-`;
-
-export const SocialIcon = styled.a`
-  color: white;
-  transition: 0.3s ease;
-  &:hover {
-    color: white;
-    transform: scale(1.2);
-    cursor: pointer;
-  }
-`;
-
 export const Nav = styled.ul`
   grid-area: 1 / 8 / 2 / 11;
   display: flex;
@@ -48,7 +31,7 @@ export const Nav = styled.ul`
 export const NavLink = styled.a`
   font-size: 18px;
   color: #f3f7f6;
-  opacity: 0.9;
+  opacity: 0.8;
   transition: 0.5s ease;
   &:hover {
     color: white;
