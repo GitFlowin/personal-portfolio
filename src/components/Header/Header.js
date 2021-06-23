@@ -1,15 +1,6 @@
 import Link from "next/link";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { DiGhostSmall } from "react-icons/di";
-import {
-  Container,
-  LogoDiv,
-  Nav,
-  NavLink,
-  SocialDiv,
-  SocialIcon,
-  Title,
-} from "./HeaderStyles";
+import { Container, LogoDiv, Nav, NavLink, Title } from "./HeaderStyles";
 
 const Header = () => {
   return (
@@ -31,15 +22,6 @@ const Header = () => {
           </a>
         </Link>
       </LogoDiv>
-      {/* Social Links */}
-      {/* <SocialDiv>
-        <SocialIcon href="https://www.linkedin.com/in/seong-lee/">
-          <AiFillLinkedin size="2rem" />
-        </SocialIcon>
-        <SocialIcon href="https://github.com/GitFlowing">
-          <AiFillGithub size="2rem" />
-        </SocialIcon>
-      </SocialDiv> */}
       {/* Nav Links */}
       <Nav>
         <li>
