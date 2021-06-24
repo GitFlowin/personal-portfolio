@@ -1,10 +1,8 @@
 export default {
-  // Temp fonts
   fonts: {
     title: "Poppins, sans-serif",
     main: "Poppins, sans-serif",
   },
-
   colors: {
     darkBackground: "#0F1C2E",
     gradient1: `linear-gradient(
@@ -19,6 +17,12 @@ export default {
       rgba(40,47,186,1) 60%, 
       rgba(60,34,126,1) 100%
     );`,
+  },
+  breakpoints: {
+    sm: "screen and (max-width: 640px)",
+    md: "screen and (max-width: 768px)",
+    lg: "screen and (max-width: 1024px)",
+    xl: "screen and (max-width: 1280px)",
   },
 };
 //

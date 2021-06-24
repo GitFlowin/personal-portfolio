@@ -6,6 +6,14 @@ export const Container = styled.div`
   grid-template-rows: 1fr;
   padding: 1rem;
   padding-top: 2rem;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 60px);
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 0.5rem;
+  }
 `;
 
 export const LogoDiv = styled.div`
@@ -13,6 +21,10 @@ export const LogoDiv = styled.div`
   display: flex;
   flex-direction: row;
   align-content: center;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    grid-area: 1 / 1 / 2 / 4;
+  }
 `;
 
 export const Title = styled.h2`
@@ -26,6 +38,10 @@ export const Nav = styled.ul`
   display: flex;
   align-items: center;
   justify-content: space-around;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    grid-area: 2 / 2 / 3 / 5;
+  }
 `;
 
 export const NavLink = styled.a`
@@ -37,5 +53,9 @@ export const NavLink = styled.a`
     color: white;
     opacity: 1;
     cursor: pointer;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding: 1rem;
   }
 `;

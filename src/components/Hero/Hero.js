@@ -10,7 +10,7 @@ const Hero = () => {
       <HeroDiv>
         <HeroTitle>Hi, I&apos;m Seong.</HeroTitle>
         <HeroDescription style={{ color: "red" }}>
-          A work in progress, mobile views not supported!
+          A work in progress, mobile views not completely supported!
         </HeroDescription>
         <HeroDescription>
           Welcome! This is the start of my portfolio site where I can showcase
