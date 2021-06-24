@@ -14,6 +14,7 @@ export const Container = styled.div`
     grid-template-rows: 1fr;
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
+    padding-top: 2rem;
   }
 `;
 
