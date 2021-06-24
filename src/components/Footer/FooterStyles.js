@@ -5,7 +5,8 @@ export const Container = styled.div`
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: 1fr;
   padding: 1rem;
-  position: fixed;
+  position: absolute;
+  height: 65px;
   bottom: 0;
   left: 0;
   width: 100%;
