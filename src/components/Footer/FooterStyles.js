@@ -11,6 +11,11 @@ export const Container = styled.div`
   left: 0;
   width: 100%;
   background-image: ${(props) => props.theme.colors.gradient1};
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
 `;
 
 export const SocialDiv = styled.div`
@@ -18,6 +23,10 @@ export const SocialDiv = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    grid-area: 1 / 5 / 1 / 6;
+  }
 `;
 
 export const SocialIcon = styled.a`
