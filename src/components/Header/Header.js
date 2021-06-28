@@ -25,12 +25,12 @@ const Header = () => {
         </li>
         <li>
           <Link href="#!" passHref>
-            <NavLink>Journey</NavLink>
+            <NavLink>Projects</NavLink>
           </Link>
         </li>
         <li>
           <Link href="#!" passHref>
-            <NavLink>Projects</NavLink>
+            <NavLink>Resume</NavLink>
           </Link>
         </li>
       </Nav>
