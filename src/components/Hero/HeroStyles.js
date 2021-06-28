@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: 1fr;
   padding: 1rem;
   padding-top: 8rem;
+  margin-bottom: 100px;
   color: white;
 
   @media ${(props) => props.theme.breakpoints.sm} {

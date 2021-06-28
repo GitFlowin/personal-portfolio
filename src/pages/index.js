@@ -1,3 +1,4 @@
+import Divider from "../components/Divider/Divider";
 import Head from "next/head";
 import Layout from "../components/Layout/Layout";
 import Hero from "../components/Hero/Hero";
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <Layout>
         <Hero />
+        {/* <Divider /> */}
       </Layout>
     </>
   );

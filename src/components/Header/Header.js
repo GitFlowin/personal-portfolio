@@ -8,13 +8,7 @@ const Header = () => {
       {/* Logo */}
       <LogoDiv>
         <Link href="/">
-          <a
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
+          <a>
             <Title>
               <DiGhostSmall />
               <span>Seong Lee</span>

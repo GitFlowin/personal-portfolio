@@ -4,15 +4,6 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 const Footer = () => {
   return (
     <Container>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          color: "white",
-        }}
-      >
-        <p>{new Date().getFullYear()}</p>
-      </div>
       {/* Social Links */}
       <SocialDiv>
         <SocialIcon href="https://www.linkedin.com/in/seong-lee/">

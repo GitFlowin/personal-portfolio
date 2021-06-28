@@ -5,10 +5,10 @@ export const Container = styled.div`
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: 1fr;
   padding: 1rem;
-  position: fixed;
-  height: 65px;
+  position: absolute;
   bottom: 0;
   left: 0;
+  height: 65px;
   width: 100%;
   background-image: ${(props) => props.theme.colors.gradient1};
 
@@ -19,7 +19,7 @@ export const Container = styled.div`
 `;
 
 export const SocialDiv = styled.div`
-  grid-area: 1 / 10 / 2 / 10;
+  grid-area: 1 / 9 / 1 / 10;
   display: flex;
   align-items: center;
   justify-content: space-around;
