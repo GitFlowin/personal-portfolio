@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { DiGhostSmall } from "react-icons/di";
+import { DiTerminal } from "react-icons/di";
 import { Container, LogoDiv, Nav, NavLink, Title } from "./HeaderStyles";
 
 const Header = () => {
@@ -10,7 +10,7 @@ const Header = () => {
         <Link href="/">
           <a>
             <Title>
-              <DiGhostSmall />
+              <DiTerminal size="2rem" />
               <span>Seong Lee</span>
             </Title>
           </a>
