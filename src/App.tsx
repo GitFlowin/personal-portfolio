@@ -1,6 +1,9 @@
+import ThemeToggle from "./components/ThemeToggle";
+
 const App = () => {
     return (
         <div className="min-h-screen bg-background text-foreground">
+            <ThemeToggle />
             {/* Hero */}
             <section className="flex flex-col items-center justify-center px-6 py-32">
                 <h1 className="text-5xl font-bold tracking-tight sm:text-6xl">
